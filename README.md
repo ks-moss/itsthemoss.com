@@ -1,0 +1,1 @@
+# krisada-sinamkam.com
