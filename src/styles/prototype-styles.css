@@ -6,7 +6,7 @@ body {
   position: relative;
 
   color: rgb(255, 255, 255);
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(60, 60, 60);
   /* background: linear-gradient(0deg, rgb(87, 43, 218) 0%, rgba(0,0,0,1) 70%); */
 
   min-height: 100vh;
