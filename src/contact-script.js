@@ -10,9 +10,9 @@ var callAPI = (name, email, msg) => {
     var options = { timeZone: 'America/Los_Angeles' };
     var pacificTime = currentDateTime.toLocaleString('en-US', options);
     var milliseconds = currentDateTime.getMilliseconds();
-    var time_now = pacificTime + '.' + milliseconds;
+    var formattedDateTime = pacificTime + '.' + milliseconds.toString().padStart(3, '0');
     // using built-in JSON utility package turn object to string and store in a variable
-    var raw = JSON.stringify({"name": name, "email": email, "msg": msg, "now": time_now });
+    var raw = JSON.stringify({"name": name, "email": email, "msg": msg, "now": formattedDateTime });
     // create a JSON object with parameters for API call and store in a variable
     var requestOptions = {
         method: 'POST',
