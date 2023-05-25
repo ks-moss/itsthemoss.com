@@ -16,7 +16,7 @@ var callAPI = (name, email, msg) => {
         redirect: 'follow'
     };
     // make API call with parameters and use promises to get response
-    fetch("https://qgetwedvkg.execute-api.ca-central-1.amazonaws.com/main", requestOptions)
+    fetch("https://s7hvprzewi.execute-api.us-west-1.amazonaws.com/main", requestOptions)
         .then(response => response.text())
         .then(result => alert(JSON.parse(result).body))
         .catch(error => console.log('error', error));
