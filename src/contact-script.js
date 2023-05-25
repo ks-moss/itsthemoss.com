@@ -26,7 +26,7 @@ var callAPI = (name, email, msg) => {
     var dateTime = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds + '.' + milliseconds;
 
     // using built-in JSON utility package turn object to string and store in a variable
-    var raw = JSON.stringify({"name": name, "email": email, "msg": msg, "now": dateTime });
+    var raw = JSON.stringify({"name": name, "email": email, "msg": msg, "now": dateTime});
     // create a JSON object with parameters for API call and store in a variable
     var requestOptions = {
         method: 'POST',
