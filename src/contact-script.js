@@ -4,8 +4,13 @@ var callAPI = (name, email, msg) => {
     var myHeaders = new Headers();
     // add content type header to object
     myHeaders.append("Content-Type", "application/json");
+    
+    // Get Date and Time
+    var currentDateTime = new Date();
+    var milliseconds = currentDateTime.getMilliseconds();
+
     // using built-in JSON utility package turn object to string and store in a variable
-    var raw = JSON.stringify({ "name": name, "email": email, "msg": msg, "now": new Date() });
+    var raw = JSON.stringify({ "name": name, "email": email, "msg": msg, "now": milliseconds });
     // create a JSON object with parameters for API call and store in a variable
     var requestOptions = {
         method: 'POST',
