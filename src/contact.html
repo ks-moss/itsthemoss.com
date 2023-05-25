@@ -56,13 +56,16 @@
 
     <div class="home">CONTACT PAGE</div>
 
-    <form action="contact-request-script.php" method="post">
-      <input type="text" name="name" placeholder="Name"><br><br>
-      <input type="email" name="email" placeholder="Email"><br><br>
-      <textarea name="msg" placeholder="Type your request"></textarea><br><br>
-      <input type="submit" value="submit request">
-
-    </form>
+    <form>
+      <label>Name:</label>
+      <input type="text" id="name">
+      <label>E-mail:</label>
+      <input type="text" id="email">
+      <label>Message:</label>
+      <input type="text" id="msg">
+      <!-- set button onClick method to call function we defined passing input values as parameters -->
+      <button type="button" onclick="callAPI(document.getElementById('name').value,document.getElementById('email').value,document.getElementById('msg').value)">SUBMIT</button>
+  </form>
     
   </main>
 
