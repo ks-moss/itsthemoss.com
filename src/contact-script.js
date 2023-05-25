@@ -4,7 +4,7 @@ var callAPI = (name, email, msg) => {
     var myHeaders = new Headers();
     // add content type header to object
     myHeaders.append("Content-Type", "application/json");
-    
+
     // Get Date and Time
     // Create a new Date object with the current time
     var currentDate = new Date();
