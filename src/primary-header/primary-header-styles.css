@@ -17,18 +17,20 @@ nav {
     gap: var(--gap, 1rem);
 }
 
-.home-icon,
-.toggle-home-icon {
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    height: 50px;
-    margin: 1.5rem;
+.home-icon {
+    height: 60px;
 }
 
 .toggle-home-icon {
-    width: 50px;
+    width: 86px;
+    height: 60px;
+    margin: 2rem;
 }
 
 .primary-header {
