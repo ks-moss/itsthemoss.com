@@ -44,17 +44,15 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0;
+
     background: hsl(0 0% 100% / 0.1);
-    backdrop-filter: blur(1rem);
-    /* background: hsl(0 0% 20% / 0.75); */
 }
 
-/* @supports (backdrop-filter: blur(1rem)) {
+@supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
-        background: hsl(0 0% 100% / 0.1);
         backdrop-filter: blur(1rem);
     }
-} */
+}
 
 .primary-navigation a {
     text-decoration: none;
