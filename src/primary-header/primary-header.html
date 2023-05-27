@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Font Style: Audiowide -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="primary-header/primary-header-styles.css">
+</head>
+<body>
+    <header class="primary-header flex">
+        
+        <a href="index.html" class="toggle-home-icon">
+            <img src="primary-header/primary-header-images/logo-icon.png" class="home-icon">
+        </a>
+
+        <button class="mobile-nav-toggle"
+        aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        </button>
+
+        <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class="active">
+            <a href="index.html">
+                <span aria-hidden="true">00</span>Home
+            </a>
+            <li>
+            <a href="portfolio.html">
+                <span aria-hidden="true">01</span>Portfolio
+            </a>
+            <li>
+            <a href="about.html">
+                <span aria-hidden="true">10</span>About
+            </a>
+            <li>
+            <a href="contact.html">
+                <span aria-hidden="true">11</span>Contact
+            </a>
+        </ul>
+        </nav>
+
+    </header>
+    
+</body>
+</html>

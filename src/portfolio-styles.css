@@ -1,0 +1,6 @@
+body {
+    background-color: lightgreen;
+    background-attachment: scroll;
+
+    min-height: 150vh;
+}
