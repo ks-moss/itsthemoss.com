@@ -1,13 +1,13 @@
 body {
-    background: url("index-images/index-background.jpg") no-repeat center center fixed; 
+    /* background: url("index-images/index-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
     
-    background-attachment: scroll;
+    background-attachment: scroll; */
 
-    /* background-color: black; */
+    background-color: lightskyblue;
     margin: 0px;
 
     min-height: 150vh;

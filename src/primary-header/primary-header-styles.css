@@ -105,6 +105,7 @@ nav {
     .mobile-nav-toggle[aria-expanded="true"] {
         background: url("primary-header-images/X-icon.png");
         background-size: cover;
+        position: fixed;
         width: 2rem;
     }
 
