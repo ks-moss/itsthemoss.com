@@ -7,35 +7,33 @@
     overflow: hidden;
 }
 
-nav {
-    color:white;
+.primary-header {
+    height: 40px;
+    box-shadow: 0 5px 5px rgba(150, 150, 150, 0.2);
+
+    background-color: rgb(0, 0, 0);
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
 }
 
-.flex {
+.home-icon,
+.toggle-home-icon {
+    height: 35px;
+    margin-left: 5px;
     display: flex;
     flex-direction: row;
-    gap: var(--gap, 1rem);
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-icon {
-    height: 35px;
-}
-
-.toggle-home-icon {
-    width: 50px;
-    height: 35px;
-    margin: 1rem;
-}
-
-.primary-header {
-    align-items: center;
-    justify-content: space-between;
+    position: absolute;
 }
 
 .mobile-nav-toggle {
@@ -43,30 +41,31 @@ nav {
 }
 
 .primary-navigation {
-    list-style: none;
+ 
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     padding: 0;
     margin: 0;
+    right: 0;
+ 
+    gap: var(--gap, 1rem);
 
-    background: hsl(0 0% 100% / 0.2);
+    background: hsla(0, 0%, 15%, 0.8);
 }
 
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
-        background: hsl(0 0% 100% / 0.1);
+        background: hsla(0, 0%, 15%, 0.5);
         backdrop-filter: blur(1rem);
     }
 }
 
 .primary-navigation a {
     text-decoration: none;
-    font-size: 15px;
-    color: white;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
     font-family: 'Audiowide', Arial, Helvetica, sans-serif;
-}
-
-.primary-navigation a > [aria-hidden="true"] {
-    font-weight: 700;
-    margin-inline-end: .75em;
 }
 
 @media (max-width: 35em) {
@@ -75,7 +74,7 @@ nav {
 
         position: fixed;
         z-index: 1000;
-        inset: 0 0 0 50%;
+        inset: 0 0 0 70%;
 
         flex-direction: column;
         padding: min(30vh, 10rem) 2em;
@@ -96,29 +95,23 @@ nav {
         background: url("primary-header-images/hamburger-icon.png");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 2rem;
+        width: 1.5rem;
         border: 0;
         aspect-ratio: 1;
-        margin: 1.5rem;
+        margin: 0.5rem;
         right: 0px;
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
         background: url("primary-header-images/X-icon.png");
         background-size: cover;
-        position: fixed;
-        width: 2rem;
+        /* position: fixed; */
+        width: 1.5rem;
     }
 
     .mobile-nav-toggle:hover {
         cursor: pointer;
     }
-}
-
-@media (min-width: 35em) and (max-width: 55em) {
-    .primary-navigation a > span[aria-hidden] {
-        display: none;
-    }   
 }
 
 @media (min-width: 35em){

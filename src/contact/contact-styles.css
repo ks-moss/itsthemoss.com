@@ -3,4 +3,6 @@ body {
     background-attachment: scroll;
 
     min-height: 150vh;
+    margin-top: 50px;
+
 }
