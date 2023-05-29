@@ -7,15 +7,37 @@
 
   <title>Portfolio</title>
 
+  <link rel="stylesheet" href="primary-header/primary-header-styles.css">
   <link rel="stylesheet" href="portfolio/portfolio-styles.css">
 
 </head>
 
 <body>
 
-  <div id="primaryHeaderContents"></div>
+  <!-- Primary Header -->
+  <!-- <div id="primaryHeaderContents"></div> -->
+  <header class="primary-header">
+        
+    <a href="index.html" class="toggle-home-icon">
+        <img src="primary-header/primary-header-images/logo-icon.png" class="home-icon">
+    </a>
 
-  <script src="primary-header/primary-header-script.js"></script>
+    <button class="mobile-nav-toggle"
+    aria-controls="primary-navigation" aria-expanded="false">
+    <span class="sr-only">Menu</span>
+    </button>
+
+  
+    <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+        <a href="index.html">Home</a>   
+        <a href="portfolio.html">Portfolio</a>            
+        <a href="about.html">About</a>      
+        <a href="contact.html">Contact</a>
+    </ul>
+
+  </header>
+
+  <script src="primary-header/primary-header-motion-script.js"></script>
 
 </body>
 
