@@ -21,7 +21,6 @@
     z-index: 999;
 
     display: flex;
-    flex: 1;
     flex-direction: row;
     position: fixed;
     align-items: center;
@@ -56,7 +55,7 @@
 
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
-        background: hsla(0, 0%, 15%, 0.5);
+        background: hsla(0, 0%, 100%, 0.5);
         backdrop-filter: blur(1rem);
     }
 }
