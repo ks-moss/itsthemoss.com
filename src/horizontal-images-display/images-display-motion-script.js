@@ -11,7 +11,7 @@ function startCounter() {
       count++;
   
       // Stop the loop after 10 seconds
-      if (count === 5) {
+      if (count === 3) {
         showSlides(slideIndex++)
       }
     }, 1000);
