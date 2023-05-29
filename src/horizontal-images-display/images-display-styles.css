@@ -43,9 +43,9 @@
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 2px 0px 2px 0px;
+  padding: 2px 0px ;
   position: absolute;
-  top: 0px;
+  bottom: 7px;
   width: 100%;
   text-align: center;
 }
@@ -60,6 +60,7 @@
   right: 0px;
   bottom: 4px;
   border-top-left-radius: 30%;
+  z-index: 100;
 }
 
 /* The dots/bullets/indicators */
