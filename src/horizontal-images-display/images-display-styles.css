@@ -14,7 +14,7 @@
     margin: auto;
 }
 
-/* Hide the images by default 2500x5183*/
+/* Hide the images by default*/
 .mySlides {
     display: none;
     margin: 0px 0px 3px 0px;
@@ -52,7 +52,7 @@
 .text {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 5px;
+  padding: 3px;
   position: absolute;
   bottom: 4px;
   width: 100%;
@@ -64,7 +64,7 @@
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  padding: 5px;
+  padding: 3px;
   position: absolute;
   right: 0;
   top: 0;
