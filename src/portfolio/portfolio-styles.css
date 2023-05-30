@@ -1,0 +1,7 @@
+body {
+    background-color: lightgreen;
+    background-attachment: scroll;
+
+    min-height: 150vh;
+    margin-top: 60px;
+}
