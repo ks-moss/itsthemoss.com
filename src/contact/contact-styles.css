@@ -1,8 +1,12 @@
 body {
-    background-color: lightcoral;
-    background-attachment: scroll;
-
+    background-color: #ffc229;
+    
     min-height: 150vh;
     margin-top: 60px;
 
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }

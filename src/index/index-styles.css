@@ -1,17 +1,12 @@
 body {
-    /* background: url("index/index-images/index-background.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    
-    background-attachment: scroll; */
-
-    background-color: rgb(0, 0, 0);
+    background-color: #ffc229;
     
     min-height: 150vh;
     margin-top: 60px;
 
     overflow-x: hidden;
-}
 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

@@ -1,7 +1,13 @@
 body {
-    background-color: lightgreen;
-    background-attachment: scroll;
-
+    background: rgb(255,213,56);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 65%, rgba(255,213,56,1) 100%);
+    
     min-height: 150vh;
     margin-top: 60px;
+
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
