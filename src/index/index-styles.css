@@ -1,12 +1,16 @@
 body {
-    background-color: #ffc229;
+    background-color: #a9ba4d9e;
     
     min-height: 150vh;
-    margin-top: 60px;
 
     overflow-x: hidden;
 
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+.section-1 {
+    background-color: black;
+    height: 700px;
 }

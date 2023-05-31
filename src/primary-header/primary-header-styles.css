@@ -11,7 +11,7 @@
     height: 45px;
     /* box-shadow: 0 5px 5px rgba(150, 150, 150, 0.3); */
 
-    /* background-color: #ffc434; */
+    /* background-color: #000000; */
     /* background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(255,255,255,1) 90%); */
     
@@ -19,12 +19,12 @@
     left: 0;
     right: 0;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     z-index: 999;
 
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: relative;
     align-items: center;
 }
 
@@ -90,7 +90,7 @@
     }
 
     .mobile-nav-toggle {
-        display: block;
+        display:grid;
         position: absolute;
         z-index: 9999;
         background: url("primary-header-images/hamburger-icon.png");
@@ -106,7 +106,7 @@
     .mobile-nav-toggle[aria-expanded="true"] {
         background: url("primary-header-images/X-icon.png");
         background-size: cover;
-        /* position: fixed; */
+        position: fixed;
         width: 1.5rem;
     }
 
@@ -117,7 +117,7 @@
 
 @media (min-width: 35em){
     .primary-navigation{
-        border-radius: 2rem 0 0 2rem;
+        border-radius: 2rem;
         --gap: clamp(1.5rem, 5vw, 7rem);
         padding-block: 0.5rem;
         padding-inline: clamp(3rem, 8vw, 10rem);

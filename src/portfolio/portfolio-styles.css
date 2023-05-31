@@ -1,9 +1,8 @@
 body {
-    background: rgb(255,213,56);
+    background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgb(0, 0, 0) 85%, rgba(255,213,56,1) 100%);
     
     min-height: 150vh;
-    margin-top: 60px;
 
     overflow-x: hidden;
 
