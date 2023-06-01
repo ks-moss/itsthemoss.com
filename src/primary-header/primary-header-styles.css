@@ -46,7 +46,14 @@
  
     gap: var(--gap, 1rem);
 
-    background: hsla(0, 0%, 15%, 0.8);
+    background: hsla(0, 0%, 30%, 0.8);
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+    .primary-navigation {
+        background: hsla(0, 0%, 50%, 0.5);
+        backdrop-filter: blur(1rem);
+    }
 }
 
 .not-selected-page {
@@ -61,13 +68,6 @@
     font-size: 13px;
     color: rgb(255, 255, 255);
     font-family: 'Audiowide', Arial, Helvetica, sans-serif;
-}
-
-@supports (backdrop-filter: blur(1rem)) {
-    .primary-navigation {
-        background: hsla(0, 0%, 50%, 0.5);
-        backdrop-filter: blur(1rem);
-    }
 }
 
 @media (max-width: 35em) {
@@ -118,7 +118,7 @@
 
 @media (min-width: 35em){
     .primary-navigation{
-        border-radius: 2rem;
+        border-radius: 2rem 0 0 2rem;
         --gap: clamp(1.5rem, 5vw, 7rem);
         padding-block: 0.5rem;
         padding-inline: clamp(3rem, 8vw, 10rem);
