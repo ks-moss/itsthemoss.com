@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+    overflow-x: hidden;
+    align-items: center;
+    position: relative;
+
+    min-height: 100vh;
+}
