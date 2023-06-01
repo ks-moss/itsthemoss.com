@@ -1,0 +1,127 @@
+.primary-header {
+    height: 45px;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 0 10px 0;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.image-link {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-link img {
+    height: 17px; /* Maintain aspect ratio */
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.primary-navigation {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    right: 0;
+ 
+    gap: var(--gap, 1rem);
+
+    background: hsla(0, 0%, 15%, 0.8);
+}
+
+.not-selected-page {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+.underline-link {
+    text-decoration: underline;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+    .primary-navigation {
+        background: hsla(0, 0%, 50%, 0.5);
+        backdrop-filter: blur(1rem);
+    }
+}
+
+@media (max-width: 35em) {
+    .primary-navigation {
+        --gap: 2em;
+
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 70%;
+
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2em;
+        border-radius: 4rem 0 0 4rem;
+
+        transform: translateX(100%);
+        transition: transform 400ms ease-out;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle {
+        display:grid;
+        position: absolute;
+        z-index: 9999;
+        background: url("primary-header-images/hamburger-icon.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 1.5rem;
+        border: 0;
+        aspect-ratio: 1;
+        margin: 0.5rem;
+        right: 0px;
+    }
+
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background: url("primary-header-images/X-icon.png");
+        background-size: cover;
+        position: fixed;
+        width: 1.5rem;
+    }
+
+    .mobile-nav-toggle:hover {
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 35em){
+    .primary-navigation{
+        border-radius: 2rem;
+        --gap: clamp(1.5rem, 5vw, 7rem);
+        padding-block: 0.5rem;
+        padding-inline: clamp(3rem, 8vw, 10rem);
+    }
+
+}
