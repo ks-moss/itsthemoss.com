@@ -60,14 +60,12 @@
     text-decoration: none;
     font-size: 13px;
     color: rgb(255, 255, 255);
-    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
 }
 
 .underline-link {
     text-decoration: underline;
     font-size: 13px;
     color: rgb(255, 255, 255);
-    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 35em) {
