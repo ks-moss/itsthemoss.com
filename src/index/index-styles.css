@@ -90,11 +90,12 @@ nav ul li a {
     padding: 0;
     margin: 0;
     white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
 }
   
 .content .say-hi {
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     font-weight: 300;
     align-self: flex-start; /* Add this line */
@@ -102,7 +103,7 @@ nav ul li a {
   
 .content .name {
     display: flex;
-    font-size: 100px;
+    font-size: 90px;
     color: #fff;
     font-weight: 500;
 }
@@ -127,13 +128,13 @@ nav ul li a {
         top: 40%;
     }
     .content .name{
-        font-size: 65px;
+        font-size: 55px;
     }
 
     .content .explore {
         font-size: 18px;
         padding: 10px 40px;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 } 
 
@@ -143,11 +144,11 @@ nav ul li a {
     }
 
     .content .name{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .content .explore {
-        font-size: 18px;
+        font-size: 15px;
         padding: 10px 40px;
         margin-top: 35%;
     }
