@@ -13,3 +13,14 @@ body {
 
     min-height: 100vh;
 }
+
+body h1 {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
