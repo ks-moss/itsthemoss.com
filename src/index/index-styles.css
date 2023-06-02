@@ -123,6 +123,9 @@ nav ul li a {
 }
 
 @media (max-width: 55em){ 
+    .content {
+        top: 40%;
+    }
     .content .name{
         font-size: 65px;
     }
@@ -130,7 +133,7 @@ nav ul li a {
     .content .explore {
         font-size: 18px;
         padding: 10px 40px;
-        margin-top: 25%;
+        margin-top: 10%;
     }
 } 
 
