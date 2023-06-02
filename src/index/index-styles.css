@@ -81,9 +81,9 @@ nav ul li a {
 
 .content {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +115,7 @@ nav ul li a {
     border: 1px solid #fff;
     padding: 14px 50px;
     border-radius: 50px;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .content .explore:hover {
@@ -123,14 +123,33 @@ nav ul li a {
 }
 
 @media (max-width: 55em){ 
-    .content .name{
-        font-size: 65px; 
+    .content {
+        top: 40%;
     }
 
+    .content .name{
+        font-size: 65px;
+    }
+
+    .content .explore {
+        font-size: 18px;
+        padding: 10px 40px;
+        margin-top: 25%;
+    }
 } 
 
 @media (max-width: 35em){
+    .content {
+        top: 40%;
+    }
+
     .content .name{
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .content .explore {
+        font-size: 18px;
+        padding: 10px 40px;
+        margin-top: 30%;
     }
 }
