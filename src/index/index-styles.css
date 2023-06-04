@@ -7,8 +7,10 @@
 
 body {
     overflow-x: hidden;
-    align-items: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 91, 91);
 
     min-height: 100vh;
 }
@@ -36,120 +38,165 @@ body {
     }
 }
 
-/* .background-video {
+.body-container {
     width: 100%;
     height: 100vh;
-    
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    border: 2px solid black;
     position: relative;
-    padding: 0 5%;
 
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 
-nav .logo {
-    width: 80px;
-}
 
-nav ul li {
-    list-style: none;
-    display: inline;
-    margin-left: 40px;
-}
+.main-body {
+    flex: 1;
+    width: 100%;
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
-}
-
-*/
-
-.content {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    margin: 0;
+
+    border: 2px solid rgb(46, 194, 29);
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+    top: 10%;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.messages {
+    border: 2px solid rgb(0, 0, 0);
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+.explore {
+    text-decoration: none;
+
+    color: white;
+    position: absolute;
+    bottom: 0;    
+
+    border: 1px solid white;
+    padding: 15px 80px;
+    border-radius: 40px;
+
+    bottom: 0;
+}
+
+.messages p {
+    color: white;
     white-space: nowrap;
     font-family: 'Times New Roman', Times, serif;
 }
-  
-.content .say-hi {
-    display: flex;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 300;
-    align-self: flex-start; /* Add this line */
-}
-  
-.content .name {
-    display: flex;
-    font-size: 90px;
-    color: #fff;
-    font-weight: 500;
+
+.say-hi {
+    border: 2px solid rgb(255, 0, 153);
+    font-size: 20px;
 }
 
-.content .explore {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 24px;
-    border: 1px solid #fff;
-    padding: 14px 50px;
-    border-radius: 50px;
-    margin-top: 20%;
+.name {
+    border: 2px solid rgb(0, 68, 255);
+    padding: 0.5rem 0 0 0;
+
+    font-size: 100px;
+    font-weight: 700;
 }
 
-.content .explore:hover {
-    cursor: pointer;
-}
+@media only screen and (max-width: 65em){
+    .say-hi {
+        font-size: 18px;
 
-@media (max-width: 55em){ 
-    .content {
-        top: 40%;
     }
-    .content .name{
+    .name {
+        background-color: rgb(56, 65, 74);
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 55rem){
+    .messages {
+        top: 15%;
+
+    }
+    .say-hi {
+        font-size: 14px;
+    }
+    .name {
+        background-color: rgb(86, 7, 23);
         font-size: 55px;
     }
+    .explore {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+}
 
-    .content .explore {
+@media only screen and (max-width: 35em){
+    .messages {
+        top: 15%;
+
+    }
+    .say-hi {
+        font-size: 14px;
+    }
+    .name {
+        background-color: rgb(0, 0, 0);
+        font-size: 40px;
+    }
+    .explore {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (max-width: 25em){
+    .messages {
+        top: 15%;
+
+    }
+    .say-hi {
+        font-size: 12px;
+    }
+    .name {
+        background-color: rgb(255, 0, 0);
+        font-size: 30px;
+    }
+    .explore {
+        font-size: 12px;
+        padding: 7px 25px;
+    }
+}
+
+
+@media only screen and (max-width: 20em){
+    .messages {
+        top: 15%;
+
+    }
+    .say-hi {
+        font-size: 12px;
+    }
+    .name {
+        background-color: rgb(13, 0, 255);
         font-size: 20px;
-        padding: 10px 40px;
-        margin-top: 20%;
     }
-} 
-
-@media (max-width: 35em){
-    .content {
-        top: 40%;
-    }
-
-    .content .name{
-        font-size: 35px;
-    }
-
-    .content .explore {
-        font-size: 15px;
-        padding: 10px 40px;
-        margin-top: 35%;
+    .explore {
+        font-size: 12px;
+        padding: 7px 25px;
     }
 }
