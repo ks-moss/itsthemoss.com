@@ -185,7 +185,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 25em){
+@media only screen and (max-width: 26em){
     .say-hi {
         font-size: 15px;
     }
@@ -199,13 +199,27 @@ body {
     }
 }
 
-@media only screen and (max-width: 22em){
+@media only screen and (max-width: 24em){
     .say-hi {
         font-size: 13px;
     }
     .name {
         background-color: rgb(24, 64, 19);
-        font-size: 20px;
+        font-size: 25px;
+    }
+    .explore {
+        font-size: 15px;
+        padding: 12px 40px;
+    }
+}
+
+@media only screen and (max-width: 20em){
+    .say-hi {
+        font-size: 13px;
+    }
+    .name {
+        background-color: rgb(255, 0, 55);
+        font-size: 22px;
     }
     .explore {
         font-size: 15px;
