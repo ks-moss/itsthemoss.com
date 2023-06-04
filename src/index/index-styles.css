@@ -41,7 +41,7 @@ body {
 .body-container {
     width: 100%;
     height: 100vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
 
     display: flex;
@@ -60,7 +60,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    border: 2px solid rgb(46, 194, 29);
+    /* border: 2px solid rgb(46, 194, 29); */
 }
 
 .content-container {
@@ -72,12 +72,12 @@ body {
     width: 90%;
     height: 60%;
     top: 10%;
-    border: 2px solid rgb(255, 255, 255);
+    /* border: 2px solid rgb(255, 255, 255); */
 
 }
 
 .messages {
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
 
     position: absolute;
     display: flex;
@@ -92,7 +92,7 @@ body {
     position: absolute;
     bottom: 0;    
 
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 15px 80px;
     border-radius: 40px;
 
@@ -106,12 +106,12 @@ body {
 }
 
 .say-hi {
-    border: 2px solid rgb(255, 0, 153);
+    /* border: 2px solid rgb(255, 0, 153); */
     font-size: 20px;
 }
 
 .name {
-    border: 2px solid rgb(0, 68, 255);
+    /* border: 2px solid rgb(0, 68, 255); */
     padding: 0.5rem 0 0 0;
 
     font-size: 100px;
@@ -124,7 +124,7 @@ body {
 
     }
     .name {
-        background-color: rgb(56, 65, 74);
+        /* background-color: rgb(56, 65, 74); */
         font-size: 80px;
     }
     .explore {
@@ -138,12 +138,12 @@ body {
         font-size: 18px;
     }
     .name {
-        background-color: rgb(86, 7, 23);
+        /* background-color: rgb(86, 7, 23); */
         font-size: 50px;
     }
     .explore {
         font-size: 16px;
-        padding: 15px 50px;
+        padding: 14px 50px;
     }
 }
 
@@ -152,12 +152,12 @@ body {
         font-size: 18px;
     }
     .name {
-        background-color: rgb(0, 0, 0);
+        /* background-color: rgb(0, 0, 0); */
         font-size: 45px;
     }
     .explore {
         font-size: 15px;
-        padding: 12px 45px;
+        padding: 13px 45px;
     }
 }
 
@@ -166,12 +166,12 @@ body {
         font-size: 14px;
     }
     .name {
-        background-color: rgb(255, 0, 0);
+        /* background-color: rgb(255, 0, 0); */
         font-size: 40px;
     }
     .explore {
         font-size: 15px;
-        padding: 10px 40px;
+        padding: 12px 40px;
     }
 }
 
@@ -180,12 +180,12 @@ body {
         font-size: 12px;
     }
     .name {
-        background-color: rgb(13, 0, 255);
+        /* background-color: rgb(13, 0, 255); */
         font-size: 35px;
     }
     .explore {
         font-size: 15px;
-        padding: 10px 35px;
+        padding: 11px 35px;
     }
 }
 
@@ -195,7 +195,7 @@ body {
         font-size: 15px;
     }
     .name {
-        background-color: rgb(0, 0, 0);
+        /* background-color: rgb(0, 0, 0); */
         font-size: 30px;
     }
     .explore {
