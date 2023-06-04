@@ -88,6 +88,7 @@ body {
     text-decoration: none;
 
     color: white;
+    font-size: 20px;
     position: absolute;
     bottom: 0;    
 
@@ -126,6 +127,10 @@ body {
         background-color: rgb(56, 65, 74);
         font-size: 80px;
     }
+    .explore {
+        font-size: 18px;
+        padding: 15px 65px;
+    }
 }
 
 @media only screen and (max-width: 50rem){
@@ -151,7 +156,7 @@ body {
         font-size: 45px;
     }
     .explore {
-        font-size: 14px;
+        font-size: 15px;
         padding: 12px 45px;
     }
 }
@@ -165,7 +170,7 @@ body {
         font-size: 40px;
     }
     .explore {
-        font-size: 12px;
+        font-size: 15px;
         padding: 10px 40px;
     }
 }
@@ -179,7 +184,7 @@ body {
         font-size: 35px;
     }
     .explore {
-        font-size: 12px;
+        font-size: 15px;
         padding: 10px 35px;
     }
 }
@@ -187,7 +192,7 @@ body {
 
 @media only screen and (max-width: 22em){
     .say-hi {
-        font-size: 12px;
+        font-size: 15px;
     }
     .name {
         background-color: rgb(0, 0, 0);
