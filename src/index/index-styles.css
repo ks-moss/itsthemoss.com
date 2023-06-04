@@ -128,17 +128,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 55rem){
-    .messages {
-        top: 15%;
-
-    }
+@media only screen and (max-width: 50rem){
     .say-hi {
-        font-size: 14px;
+        font-size: 18px;
     }
     .name {
         background-color: rgb(86, 7, 23);
-        font-size: 55px;
+        font-size: 50px;
     }
     .explore {
         font-size: 16px;
@@ -146,17 +142,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 35em){
-    .messages {
-        top: 15%;
-
-    }
+@media only screen and (max-width: 32em){
     .say-hi {
-        font-size: 14px;
+        font-size: 18px;
     }
     .name {
         background-color: rgb(0, 0, 0);
-        font-size: 40px;
+        font-size: 45px;
     }
     .explore {
         font-size: 14px;
@@ -164,17 +156,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 25em){
-    .messages {
-        top: 15%;
-
-    }
+@media only screen and (max-width: 28em){
     .say-hi {
-        font-size: 12px;
+        font-size: 14px;
     }
     .name {
         background-color: rgb(255, 0, 0);
-        font-size: 30px;
+        font-size: 40px;
     }
     .explore {
         font-size: 12px;
@@ -183,17 +171,13 @@ body {
 }
 
 
-@media only screen and (max-width: 20em){
-    .messages {
-        top: 15%;
-
-    }
+@media only screen and (max-width: 25em){
     .say-hi {
         font-size: 12px;
     }
     .name {
         background-color: rgb(13, 0, 255);
-        font-size: 20px;
+        font-size: 25px;
     }
     .explore {
         font-size: 12px;
