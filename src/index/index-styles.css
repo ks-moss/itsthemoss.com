@@ -42,14 +42,13 @@ body {
     width: 100%;
     height: 100vh;
     /* border: 2px solid black; */
-    position: relative;
+    position: absolute;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 
 .main-body {
     flex: 1;
@@ -64,13 +63,13 @@ body {
 }
 
 .content-container {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 60%;
+    height: 55%;
     top: 15%;
     /* border: 2px solid rgb(255, 255, 255); */
 
