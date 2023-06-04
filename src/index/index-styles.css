@@ -134,7 +134,7 @@ body {
         font-size: 18px;
     }
     .name {
-        /* background-color: rgb(86, 7, 23); */
+        background-color: rgb(86, 7, 23);
         font-size: 50px;
     }
     .explore {
@@ -148,7 +148,7 @@ body {
         font-size: 18px;
     }
     .name {
-        /* background-color: rgb(0, 0, 0); */
+        background-color: rgb(255, 242, 0);
         font-size: 45px;
     }
     .explore {
@@ -162,7 +162,7 @@ body {
         font-size: 14px;
     }
     .name {
-        /* background-color: rgb(255, 0, 0); */
+        background-color: rgb(255, 0, 0);
         font-size: 40px;
     }
     .explore {
@@ -176,7 +176,7 @@ body {
         font-size: 15px;
     }
     .name {
-        /* background-color: rgb(13, 0, 255); */
+        background-color: rgb(13, 0, 255);
         font-size: 35px;
     }
     .explore {
@@ -190,7 +190,7 @@ body {
         font-size: 15px;
     }
     .name {
-        /* background-color: rgb(0, 0, 0); */
+        background-color: rgb(0, 0, 0);
         font-size: 30px;
     }
     .explore {
@@ -204,7 +204,7 @@ body {
         font-size: 13px;
     }
     .name {
-        /* background-color: rgb(0, 0, 0); */
+        background-color: rgb(24, 64, 19);
         font-size: 22px;
     }
     .explore {
