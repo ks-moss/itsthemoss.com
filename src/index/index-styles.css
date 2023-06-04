@@ -152,7 +152,7 @@ body {
     }
     .explore {
         font-size: 14px;
-        padding: 12px 40px;
+        padding: 12px 45px;
     }
 }
 
@@ -166,7 +166,7 @@ body {
     }
     .explore {
         font-size: 12px;
-        padding: 10px 30px;
+        padding: 10px 40px;
     }
 }
 
@@ -180,7 +180,7 @@ body {
     }
     .explore {
         font-size: 12px;
-        padding: 7px 25px;
+        padding: 10px 35px;
     }
 }
 
@@ -195,6 +195,6 @@ body {
     }
     .explore {
         font-size: 12px;
-        padding: 7px 25px;
+        padding: 10px 30px;
     }
 }
