@@ -205,7 +205,7 @@ body {
     }
     .name {
         background-color: rgb(24, 64, 19);
-        font-size: 27px;
+        font-size: 26px;
     }
     .explore {
         font-size: 15px;
@@ -213,13 +213,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 20em){
+@media only screen and (max-width: 21em){
     .say-hi {
         font-size: 13px;
     }
     .name {
         background-color: rgb(255, 0, 55);
-        font-size: 24px;
+        font-size: 22px;
     }
     .explore {
         font-size: 15px;
