@@ -8,8 +8,9 @@
 body {
     background-color: black;
     overflow-x: hidden;
-    align-items: center;
     position: relative;
+    align-items: center;
+
 
     min-height: 100vh;
 }
