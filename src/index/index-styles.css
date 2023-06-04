@@ -89,7 +89,7 @@ body {
     bottom: 0;    
 
     border: 1px solid white;
-    padding: 15px 80px;
+    padding: 12px 80px;
     border-radius: 40px;
 
     bottom: 0;
@@ -125,7 +125,7 @@ body {
     }
     .explore {
         font-size: 18px;
-        padding: 15px 65px;
+        padding: 12px 65px;
     }
 }
 
@@ -139,7 +139,7 @@ body {
     }
     .explore {
         font-size: 16px;
-        padding: 14px 50px;
+        padding: 12px 50px;
     }
 }
 
@@ -153,7 +153,7 @@ body {
     }
     .explore {
         font-size: 15px;
-        padding: 13px 45px;
+        padding: 12px 45px;
     }
 }
 
@@ -191,7 +191,7 @@ body {
     }
     .name {
         background-color: rgb(0, 0, 0);
-        font-size: 27px;
+        font-size: 32px;
     }
     .explore {
         font-size: 15px;
@@ -219,7 +219,7 @@ body {
     }
     .name {
         background-color: rgb(255, 0, 55);
-        font-size: 22px;
+        font-size: 20px;
     }
     .explore {
         font-size: 15px;
