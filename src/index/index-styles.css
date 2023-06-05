@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+html, 
+body {
+    min-height: 100%;
+}
+
 body {
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
-    min-height: 100vh;
+    min-height: 100vh;   /* dvh svh lvh */
 }
 
 .back-video {
