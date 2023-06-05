@@ -71,7 +71,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 10%;
+    top: clamp(8%, 10%, 20%);
 
     margin: 0 100% 0 100%;
 }
@@ -101,11 +101,10 @@ body {
     color: white;
     font-size: clamp(12px, 1vw + 1vh, 24px);
     position: absolute;
-    bottom: 0;    
 
     border: 1px solid white;
     padding: clamp(10px, 1vw + 1vh, 13px) clamp(50px, 1vw + 1vh, 80px);
     border-radius: clamp(40px, 20%, 80px);
 
-    bottom: 30%;
+    top: clamp(60%, 10%, 50%);
 }
