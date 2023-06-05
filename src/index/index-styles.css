@@ -43,7 +43,7 @@ body {
 .body-container {
     width: 100%;
     height: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: fixed;
 
     display: flex;
@@ -62,11 +62,11 @@ body {
     flex-direction: column;
     align-items: center;
 
-    border: 2px solid rgb(46, 194, 29);
+    /* border: 2px solid rgb(46, 194, 29); */
 }
 
 .messages {
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
 
     position: absolute;
     display: flex;
@@ -83,12 +83,12 @@ body {
 }
 
 .say-hi {
-    border: 2px solid rgb(255, 0, 153);
+    /* border: 2px solid rgb(255, 0, 153); */
     font-size: clamp(12px, 1vw + 1vh, 24px);
 }
 
 .name {
-    border: 2px solid rgb(0, 68, 255);
+    /* border: 2px solid rgb(0, 68, 255); */
     padding: 0.5rem 0 0 0;
 
     font-size: clamp(20px, 4vw + 2vh, 120px);
