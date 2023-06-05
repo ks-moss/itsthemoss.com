@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
 .primary-header {
     height: 45px;
     top: 0;
@@ -17,9 +24,13 @@
 
 .logo-link {
     font-family: 'Bokor', 'cursive';
-    font-size: 26px;
+    font-size: 24px;
     text-shadow: 3px 2px 2px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+
+    line-height: 30px;
+    height: 26px;
+    width: 22px;
     
     display: inline-block;
     margin-left: 10px;
