@@ -41,7 +41,7 @@ body {
 
 .body-container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     /* border: 2px solid black; */
     position: absolute;
 
@@ -64,40 +64,15 @@ body {
     /* border: 2px solid rgb(46, 194, 29); */
 }
 
-.content-container {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 55%;
-    top: 15%;
-    /* border: 2px solid rgb(255, 255, 255); */
-
-}
-
 .messages {
     /* border: 2px solid rgb(0, 0, 0); */
 
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 0;
-}
-.explore {
-    text-decoration: none;
+    top: 10%;
 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    bottom: 0;    
-
-    border: 1px solid white;
-    padding: 12px 80px;
-    border-radius: 40px;
-
-    bottom: 0;
+    margin: 0 100% 0 100%;
 }
 
 .messages p {
@@ -108,127 +83,28 @@ body {
 
 .say-hi {
     /* border: 2px solid rgb(255, 0, 153); */
-    font-size: 20px;
+    font-size: clamp(12px, 1vw + 1vh, 24px);
 }
 
 .name {
     /* border: 2px solid rgb(0, 68, 255); */
     padding: 0.5rem 0 0 0;
 
-    font-size: 100px;
+    font-size: clamp(20px, 4vw + 2vh, 120px);
     font-weight: 700;
 }
 
-@media only screen and (max-width: 67em){
-    .say-hi {
-        font-size: 18px;
+.explore {
+    text-decoration: none;
 
-    }
-    .name {
-        /* background-color: rgb(56, 65, 74); */
-        font-size: 80px;
-    }
-    .explore {
-        font-size: 18px;
-        padding: 12px 65px;
-    }
-}
+    color: white;
+    font-size: clamp(12px, 1vw + 1vh, 24px);
+    position: absolute;
+    bottom: 0;    
 
-@media only screen and (max-width: 55rem){
-    .say-hi {
-        font-size: 18px;
-    }
-    .name {
-        /* background-color: rgb(86, 7, 23); */
-        font-size: 50px;
-    }
-    .explore {
-        font-size: 16px;
-        padding: 12px 50px;
-    }
-}
+    border: 1px solid white;
+    padding: clamp(10px, 1vw + 1vh, 13px) clamp(50px, 1vw + 1vh, 80px);
+    border-radius: clamp(40px, 20%, 80px);
 
-@media only screen and (max-width: 34em){
-    .say-hi {
-        font-size: 18px;
-    }
-    .name {
-        /* background-color: rgb(255, 242, 0); */
-        font-size: 45px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 45px;
-    }
+    bottom: 30%;
 }
-
-@media only screen and (max-width: 31em){
-    .say-hi {
-        font-size: 14px;
-    }
-    .name {
-        /* background-color: rgb(255, 0, 0); */
-        font-size: 40px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 40px;
-    }
-}
-
-@media only screen and (max-width: 28em){
-    .say-hi {
-        font-size: 15px;
-    }
-    .name {
-        /* background-color: rgb(13, 0, 255); */
-        font-size: 35px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 40px;
-    }
-}
-
-@media only screen and (max-width: 26em){
-    .say-hi {
-        font-size: 15px;
-    }
-    .name {
-        /* background-color: rgb(0, 0, 0); */
-        font-size: 32px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 40px;
-    }
-}
-
-@media only screen and (max-width: 24em){
-    .say-hi {
-        font-size: 13px;
-    }
-    .name {
-        /* background-color: rgb(24, 64, 19); */
-        font-size: 26px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 40px;
-    }
-}
-
-@media only screen and (max-width: 21em){
-    .say-hi {
-        font-size: 13px;
-    }
-    .name {
-        /* background-color: rgb(255, 0, 55); */
-        font-size: 22px;
-    }
-    .explore {
-        font-size: 15px;
-        padding: 12px 40px;
-    }
-}
-        
