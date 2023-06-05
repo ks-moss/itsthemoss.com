@@ -15,13 +15,15 @@
     width: 100%; /* Add this line */
 }
 
-.image-link {
+.logo-link {
+    font-family: 'Bokor', 'cursive';
+    font-size: 26px;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
     display: inline-block;
     margin-left: 10px;
-}
-
-.image-link img {
-    height: 17px; /* Maintain aspect ratio */
+    text-decoration: none;
 }
 
 .sr-only {
