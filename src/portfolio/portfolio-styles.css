@@ -37,11 +37,12 @@ body {
 
 
 .section-2 {
-    width: 100%;
 
-    /* border: 2px solid rgb(0, 0, 255); */
     background: linear-gradient(90deg, rgba(78,78,78,1) 35%, rgb(210, 10, 0) 100%);
     
+    /* border: 2px solid rgb(0, 0, 255); */
+    border-radius: 1rem;
+    margin: 0.5rem;
 
     display: flex;
     flex-direction: row;
