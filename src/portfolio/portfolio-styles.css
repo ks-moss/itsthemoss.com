@@ -42,7 +42,7 @@ body {
     
     /* border: 2px solid rgb(0, 0, 255); */
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
 
     display: flex;
     flex-direction: row;
