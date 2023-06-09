@@ -25,24 +25,12 @@ body {
 }
 
 .section-1 {
-    /* border: 2px solid rgb(102, 255, 0); */
-    width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.section-2 {
-
-    background: linear-gradient(90deg, rgba(78,78,78,1) 35%, rgb(210, 10, 0) 100%);
+    background: linear-gradient(90deg, rgba(100, 100, 100, 1) 35%, rgba(239, 21, 10, 1) 100%);
     
     /* border: 2px solid rgb(0, 0, 255); */
-    border-radius: 1rem;
-    margin: 0.5rem;
+    border-radius: 0 3rem 0 3rem;
+    margin: 0.5rem 1rem 0 1rem;
 
     display: flex;
     flex-direction: row;
@@ -51,15 +39,15 @@ body {
 }
 
 @media (max-width: 35em) {
-    .section-2 {
+    .section-1 {
         flex-direction: column;
-        background: linear-gradient(00deg, rgb(210, 10, 0) 0%, rgba(78,78,78,1) 60%);
+        background: linear-gradient(00deg, rgba(239, 21, 10, 1) 0%, rgba(100, 100, 100, 1) 60%);
     }    
 }
 
 .education-logo {
     /* border: 2px solid rgb(0, 225, 255); */
-    margin: 10px;
+    margin: 10px 10px 10px 2rem;
 
     display: flex;
     flex-direction: row;
@@ -69,6 +57,7 @@ body {
 
 @media (max-width: 35em) {
     .education-logo {
+        margin: 10px;
         flex-direction: column;
     }
 
@@ -76,7 +65,7 @@ body {
 
 .education-logo img {
     /* border: 2px solid rgb(34, 255, 0); */
-    width: 70px;
+    width: 60px;
 }
 
 @media (min-width: 35em) {
@@ -87,14 +76,21 @@ body {
 }
 
 .education-logo .unlv {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    color: rgb(210, 10, 0); 
+
+    color: rgb(239, 21, 10); 
 }
 
 .education-messages {
     /* border: 2px solid rgb(255, 0, 0); */
-    margin: 10px;
+    margin: 10px 2rem 10px 10px;
+}
+
+@media (max-width: 35em) {
+    .education-messages {
+        margin: 10px;
+    }
 }
 
 .education-messages p {
@@ -117,6 +113,16 @@ body {
     .education-messages p {
         justify-content: flex-end;
     }
+}
+
+.section-2 {
+    /* border: 2px solid rgb(102, 255, 0); */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-3 {
