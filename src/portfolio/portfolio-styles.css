@@ -71,7 +71,7 @@ body {
 
 .info-bar {
     position: absolute;
-    background-color: black;
+    /* background-color: black; */
     height: 20px;
     width: 20px;
     right: 10px;
