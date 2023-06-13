@@ -263,7 +263,7 @@ body {
 }
 
 .projects img {
-    height: 325px;
+  max-width: 100%;
 }
 
 
