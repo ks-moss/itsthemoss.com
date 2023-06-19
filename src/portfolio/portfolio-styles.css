@@ -7,22 +7,22 @@
 
 html, 
 body {
-    min-height: 100vh;
+    height: 100%;
 }
 
 body {
-    min-height: 100vh;
-    
     overflow-x: hidden;
     background-color: black;
-    /* min-height: 100%; */   /* dvh svh lvh */
+    min-height: 100%;   /* dvh svh lvh */
 }
 
-.body-container {
-    width: 100%;
-    height: 100%;
+.body-content {
+    min-height: 100%;
+    flex: 1;
 
-    /* border: 2px solid rgb(255, 0, 0); */
+    position: relative;
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding-bottom: 50px;
 }
 
 
@@ -286,4 +286,19 @@ body {
     text-indent: 0;
     color: black;
     background-color: rgb(124, 255, 192);
+}
+
+.copyright-footer {
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 12px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    text-align: center;
 }
