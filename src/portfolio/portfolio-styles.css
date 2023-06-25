@@ -149,11 +149,6 @@ body {
 
 }
 
-.inner img {
-    overflow: hidden;
-    max-width: 100%;
-}
-
 .inner h1 {
 
     background-color: rgb(137, 137, 137);
@@ -163,6 +158,11 @@ body {
     font-size: medium;
     border-radius: 50px;
 
+}
+
+.inner img {
+    overflow: hidden;
+    max-width: 100%;
 }
 
 /*  ########################################################  */
