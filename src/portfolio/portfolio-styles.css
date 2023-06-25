@@ -244,19 +244,19 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    text-indent: 0;
+
+    /* border: 2px solid rgb(0, 0, 0); */
 }
 
 @media (max-width: 35em) {
     .education-messages p {
         justify-content: center;
+        /* border: 2px solid rgb(108, 36, 36); */
     }
 }
 
-@media (min-width: 35em) {
-    .education-messages p {
-        justify-content: flex-end;
-    }
-}
 
 .skills {
     width: 100%;
