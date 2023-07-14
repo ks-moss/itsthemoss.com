@@ -16,6 +16,7 @@ body {
     min-height: 100%;   /* dvh svh lvh */
 }
 
+
 .portrait {
     /* border: 2px solid rgb(255, 255, 0); */
     width: 100%;
@@ -30,14 +31,12 @@ body {
     width: 50%;
     height: auto;
     border-radius: 50%;
-
 }
 
 .quote {
     /* border: 2px solid rgb(255, 0, 0); */
     width: 100%;
     margin-top: 1rem;
-
 
     display: flex;
     flex-direction: column;
