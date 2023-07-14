@@ -16,6 +16,13 @@ body {
     min-height: 100%;   /* dvh svh lvh */
 }
 
+.body-content {
+    min-height: 100%;
+
+    position: relative;
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding-bottom: 50px;
+}
 
 .portrait {
     /* border: 2px solid rgb(255, 255, 0); */
@@ -51,6 +58,7 @@ body {
     margin: 1rem;
     text-align: center;
 }
+
 
 .copyright-footer {
     /* border: 2px solid red; */

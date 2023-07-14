@@ -20,44 +20,48 @@
 
 <body>
 
-  <header class="primary-header">
+  <div class="body-content"> 
 
-    <a href="index.html" class="logo-link">
-      KS
-    </a>
+    <header class="primary-header">
 
-    <div class="hamburger-bars">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
+      <a href="index.html" class="logo-link">
+        KS
+      </a>
 
-    <ul id="primary-navigation" data-visible="false" class="primary-navigation">
-        <a href="index.html" class="not-selected-page">Home</a>   
-        <a href="portfolio.html" class="not-selected-page">Portfolio</a>            
-        <a href="about.html" class="not-selected-page">About</a>      
-        <a href="contact.html" class="underline-link">Contact</a>
-    </ul>
-  </header>
+      <div class="hamburger-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
 
-  <form>
-    <label>Name:</label>
-    <input type="text" id="name">
-    <label>E-mail:</label>
-    <input type="text" id="email">
-    <label>Message:</label>
-    <input type="text" id="msg">
-    <!-- set button onClick method to call function we defined passing input values as parameters -->
-    <button type="button" onclick="callAPI(document.getElementById('name').value,document.getElementById('email').value,document.getElementById('msg').value)">SUBMIT</button>
-  </form>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+          <a href="index.html" class="not-selected-page">Home</a>   
+          <a href="portfolio.html" class="not-selected-page">Portfolio</a>            
+          <a href="about.html" class="not-selected-page">About</a>      
+          <a href="contact.html" class="underline-link">Contact</a>
+      </ul>
+    </header>
 
-  <!-- ######################################################## -->
+    <form>
+      <label>Name:</label>
+      <input type="text" id="name">
+      <label>E-mail:</label>
+      <input type="text" id="email">
+      <label>Message:</label>
+      <input type="text" id="msg">
+      <!-- set button onClick method to call function we defined passing input values as parameters -->
+      <button type="button" onclick="callAPI(document.getElementById('name').value,document.getElementById('email').value,document.getElementById('msg').value)">SUBMIT</button>
+    </form>
 
-    <!-- Footer -->
-    <footer class="copyright-footer">
-      <p>&copy; 2023 Krisada Sinamkam. All rights reserved.</p>
-    </footer> 
+    <!-- ######################################################## -->
+
+      <!-- Footer -->
+      <footer class="copyright-footer">
+        <p>&copy; 2023 Krisada Sinamkam. All rights reserved.</p>
+      </footer> 
+      
+  </div>
 
   <script src="primary-header/primary-header-motion-script.js"></script>
   <script src="contact/contact-script.js" ></script>

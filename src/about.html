@@ -20,51 +20,59 @@
 
 <body>
 
-  <header class="primary-header">
+  <div class="body-content"> 
 
-    <a href="index.html" class="logo-link">
-      KS
-    </a>
+    <header class="primary-header">
 
-    <div class="hamburger-bars">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
+      <a href="index.html" class="logo-link">
+        KS
+      </a>
+
+      <div class="hamburger-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+          <a href="index.html" class="not-selected-page">Home</a>   
+          <a href="portfolio.html" class="not-selected-page">Portfolio</a>            
+          <a href="about.html" class="underline-link">About</a>      
+          <a href="contact.html" class="not-selected-page">Contact</a>
+      </ul>
+    </header> 
+
+    <div class="portrait">  
+      
+      <img src="about/about-images/dog.jpg">
+  
     </div>
 
-    <ul id="primary-navigation" data-visible="false" class="primary-navigation">
-        <a href="index.html" class="not-selected-page">Home</a>   
-        <a href="portfolio.html" class="not-selected-page">Portfolio</a>            
-        <a href="about.html" class="underline-link">About</a>      
-        <a href="contact.html" class="not-selected-page">Contact</a>
-    </ul>
-  </header>
+    <div class="quote">
 
-  <div class="portrait">  
-      
-    <img src="about/about-images/dog.jpg">
+      <p>
+        FAILURE IS NOT THE OPPOSITE OF SUCCESS, IT IS A PART OF SUCCESS.
+      </p>
+  
+      <p>
+        - Arianna Huffington -
+      </p>
+  
+    </div>
 
-  </div>
-
-  <div class="quote">
-
-    <p>
-      FAILURE IS NOT THE OPPOSITE OF SUCCESS, IT IS A PART OF SUCCESS.
-    </p>
-
-    <p>
-      - Arianna Huffington -
-    </p>
-
-  </div>
-
-  <!-- ######################################################## -->
+    <!-- ######################################################## -->
 
     <!-- Footer -->
     <footer class="copyright-footer">
       <p>&copy; 2023 Krisada Sinamkam. All rights reserved.</p>
     </footer> 
+
+  </div>
+
+ 
+
+  
 
   <script src="primary-header/primary-header-motion-script.js"></script>
 </body>
