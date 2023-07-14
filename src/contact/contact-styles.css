@@ -18,7 +18,10 @@ body {
 }
 
 form {
+    /* border: 2px solid red; */
     color: white;
+    margin-top: 1rem;
+    
 
     display: flex;
     flex-direction: column;
@@ -26,7 +29,26 @@ form {
     align-items: center;
 }
 
+form label {
+    margin-top: 0.5rem;
+}
+
 form button {
-    margin-top: 30px;
-    width: 25%;
+    margin-top: 1rem;
+    width: 15%;
+}
+
+.copyright-footer {
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 12px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    text-align: center;
 }
