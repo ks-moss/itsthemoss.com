@@ -28,7 +28,7 @@ body {
 }
 
 form {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     margin-top: 3rem;
     
