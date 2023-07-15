@@ -21,13 +21,13 @@ body {
 
     position: relative;
     /* border: 2px solid rgb(255, 255, 255); */
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 }
 
 .portrait {
     /* border: 2px solid rgb(255, 255, 0); */
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 3rem;
 
     display: flex;
     justify-content: center;
@@ -40,10 +40,53 @@ body {
     border-radius: 50%;
 }
 
+.welcome {
+    /* border: 2px solid rgb(26, 255, 0); */
+    width: 100%;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: clamp(25px, 1vw + 1vh, 50px);
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.introduction {
+    /* border: 2px solid rgb(255, 0, 195); */
+    width: 100%;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.introduction p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(15px, 1vw + 1vh, 30px);
+    margin: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
 .quote {
     /* border: 2px solid rgb(255, 0, 0); */
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 5rem;
 
     display: flex;
     flex-direction: column;
@@ -53,7 +96,7 @@ body {
 
 .quote p {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: clamp(12px, 1vw + 1vh, 24px);
     margin: 1rem;
     text-align: center;
