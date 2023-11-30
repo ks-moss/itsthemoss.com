@@ -1,3 +1,48 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("submit").addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const NAME = document.getElementById("name").value;
+        const EMAIL = document.getElementById("email").value;
+        const MESSAGES = document.getElementById("messages").value;
+
+        let notification_message = "";
+        let found_empty = false;
+
+        if (NAME.length == 0) {
+            found_empty = true;
+            notification_message = notification_message + "Full Name Cannot Be Empty." + "<br>"
+        }
+        if (EMAIL.length == 0) {
+            found_empty = true;
+            notification_message = notification_message + "Email Cannot Be Empty." + "<br>"
+        }
+        if (MESSAGES.length == 0) {
+            found_empty = true;
+            notification_message = notification_message + "Messages Cannot Be Empty." + "<br>"
+        }
+
+        if (found_empty == true) {
+            document.querySelector("#notification-submit").innerHTML = `<span style="color: red;">${notification_message}</span>`;
+        } else {
+
+            // console.log(NAME + "," + EMAIL, "," + MESSAGES)
+            // Call the API function with appropriate variable names
+            callAPI(NAME, EMAIL, MESSAGES);
+            
+            // Clear the input fields while retaining the labels with asterisks
+            document.getElementById("name").value = '';
+            document.getElementById("email").value = '';
+            document.getElementById("messages").value = '';
+
+            document.querySelector("#notification-submit").innerHTML = `<span style="color: green;">${"SUBMISSION SUCCESSFUL"}</span>`;
+        }
+    });
+
+});
+
+
 // callAPI function that takes the base and exponent numbers as parameters
 var callAPI = (name, email, msg) => {
     // instantiate a headers object

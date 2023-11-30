@@ -27,7 +27,7 @@ body {
     padding-bottom: 5rem;
 }
 
-form {
+.input-box {
     /* border: 2px solid red; */
     color: white;
     margin-top: 3rem;
@@ -39,14 +39,23 @@ form {
     align-items: center;
 }
 
-form label {
-    margin-top: 0.5rem;
+.input-box label {
+    color: white;
 }
 
-form button {
-    margin-top: 1rem;
-    width: 25%;
+.input-box input {
+    color: black;
+    width: 30%;
+    height: 2rem;
 }
+
+.input-box #submit {
+    color: black;
+    width: 20%;
+    height: 1.5rem;
+    
+}
+
 
 .copyright-footer {
     /* border: 2px solid red; */

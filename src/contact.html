@@ -14,7 +14,6 @@
 
   <link rel="stylesheet" href="primary-header/primary-header-styles.css">
   <link rel="stylesheet" href="contact/contact-styles.css">
-  <link rel="stylesheet" href="copyright-footer/copyright-footer-styles.css">
 
 </head>
 
@@ -43,16 +42,22 @@
       </ul>
     </header>
 
-    <form>
-      <label>Name:</label>
-      <input type="text" id="name">
-      <label>E-mail:</label>
-      <input type="text" id="email">
-      <label>Message:</label>
-      <input type="text" id="msg">
+    <div class="input-box">
+      <label class=""><span style="color: red;"> *</span> NAME:</label><br>
+      <input id="name" name="name" type="text" placeholder="Full Name"><br><br>
+
+      <label class=""><span style="color: red;"> *</span> E-MAIL:</label><br>
+      <input id="email" name="email" type="text" placeholder="E-Mail"><br><br>
+
+
+      <label class=""><span style="color: red;"> *</span> MESSAGES:</label><br>
+      <input id="messages" name="messages" type="text" placeholder="Messages"><br><br>
+
       <!-- set button onClick method to call function we defined passing input values as parameters -->
-      <button type="button" onclick="callAPI(document.getElementById('name').value,document.getElementById('email').value,document.getElementById('msg').value)">SUBMIT</button>
-    </form>
+      <input id="submit" type="submit" value="SUBMIT"><br>
+      <label ><span id="notification-submit"></span></label><br>
+
+    </div>
 
     <!-- ######################################################## -->
 
