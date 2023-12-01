@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (NAME.length == 0) {
             found_empty = true;
-            notification_message = notification_message + "Full Name Cannot Be Empty." + "<br>"
+            notification_message = notification_message + "Name Cannot Be Empty." + "<br>"
         }
         if (EMAIL.length == 0) {
             found_empty = true;
