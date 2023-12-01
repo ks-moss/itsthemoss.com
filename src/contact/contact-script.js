@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         if (EMAIL.length == 0) {
             found_empty = true;
-            notification_message = notification_message + "Email Cannot Be Empty." + "<br>"
+            notification_message = notification_message + "E-Mail Cannot Be Empty." + "<br>"
         }
         if (MESSAGES.length == 0) {
             found_empty = true;
