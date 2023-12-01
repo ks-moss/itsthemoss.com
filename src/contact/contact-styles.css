@@ -28,10 +28,7 @@ body {
 }
 
 .input-box {
-    /* border: 2px solid red; */
-    color: white;
     margin-top: 3rem;
-    
 
     display: flex;
     flex-direction: column;
@@ -45,13 +42,15 @@ body {
 
 .input-box input {
     color: black;
-    width: 50%;
+    min-width: 35%;
     height: 2rem;
+    padding: 0.5rem;
 }
 
 .input-box #submit {
+    padding: 0;
     color: black;
-    width: 20%;
+    min-width: 20%;
     height: 1.5rem;
     
 }
