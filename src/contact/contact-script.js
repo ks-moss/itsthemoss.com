@@ -8,22 +8,26 @@ document.addEventListener("DOMContentLoaded", function () {
         const MESSAGES = document.getElementById("messages").value;
 
         let notification_message = "";
-        let found_empty = false;
+        let found_error = false;
 
         if (NAME.length == 0) {
-            found_empty = true;
+            found_error = true;
             notification_message = notification_message + "Name Cannot Be Empty." + "<br>"
         }
         if (EMAIL.length == 0) {
-            found_empty = true;
+            found_error = true;
             notification_message = notification_message + "E-Mail Cannot Be Empty." + "<br>"
         }
+        if(validateEmail(EMAIL) == false){
+            found_error = true;
+            notification_message = notification_message + "Invalid Email." + "<br>"
+        }
         if (MESSAGES.length == 0) {
-            found_empty = true;
+            found_error = true;
             notification_message = notification_message + "Messages Cannot Be Empty." + "<br>"
         }
 
-        if (found_empty == true) {
+        if (found_error == true) {
             document.querySelector("#notification-submit").innerHTML = `<span style="color: red;">${notification_message}</span>`;
         } else {
 
@@ -88,3 +92,9 @@ var callAPI = (name, email, msg) => {
         .then(result => alert(JSON.parse(result).body))
         .catch(error => console.log('error', error));
 }
+
+function validateEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+  
