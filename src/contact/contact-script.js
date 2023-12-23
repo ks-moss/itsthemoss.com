@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         if(validateEmail(EMAIL) == false){
             found_error = true;
-            notification_message = notification_message + "Invalid Email." + "<br>"
+            notification_message = notification_message + "Invalid Email!" + "<br>"
         }
         if (MESSAGES.length == 0) {
             found_error = true;
