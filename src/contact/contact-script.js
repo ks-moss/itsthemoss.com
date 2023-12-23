@@ -93,6 +93,7 @@ var callAPI = (name, email, msg) => {
         .catch(error => console.log('error', error));
 }
 
+
 function validateEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
