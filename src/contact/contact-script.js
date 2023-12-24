@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             found_error = true;
             notification_message = notification_message + "E-Mail Cannot Be Empty." + "<br>"
         }
-        if(validateEmail(EMAIL) == false){
+        if(validateEmail(EMAIL) == false && EMAIL.length != 0){
             found_error = true;
             notification_message = notification_message + "Invalid Email!" + "<br>"
         }
