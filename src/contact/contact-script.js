@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("messages").value = '';
 
             document.querySelector("#notification-submit").innerHTML = `<span style="color: green;">${"SUBMISSION SUCCESSFUL"}</span>`;
-        
         }
     });
 
