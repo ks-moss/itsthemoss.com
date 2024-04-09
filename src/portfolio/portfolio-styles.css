@@ -41,9 +41,6 @@ body {
     padding: 0.5rem;
     margin: 1rem 1rem 0 1rem;
     position: relative;
-}
-
-.content-header  {
     border-radius: 8px;
     background: hsla(0, 0%, 30%, 0.8);
 }
