@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// callAPI function that takes the base and exponent numbers as parameters
+
 var callAPI = (name, email, msg) => {
     // instantiate a headers object
     var myHeaders = new Headers();
